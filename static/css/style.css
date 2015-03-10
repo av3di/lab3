@@ -1,0 +1,136 @@
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400);*/
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400);
+body
+{
+	font-family: 'Oxygen', sans-serif;
+	background-color: #fff;
+	letter-spacing: 2px;
+	line-height: 1.5;
+	font-size: 16px;
+}
+main
+{
+	width: 100%;
+	display: block;
+	margin: auto;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+section
+{
+	width: 100%;
+}
+h1
+{
+	color: #6dffa0;
+	font-size: 24px;
+	text-align: center;
+	font-weight: normal;
+	width: 90%;
+	display:block;
+	margin: auto;
+}
+div#main_body
+{
+	width: 90%;
+	display: block;
+	margin: auto;
+}
+h3
+{
+	color: #B10600;
+	font-size: 18px;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 20px;
+}
+span 
+{
+	color: #fff;
+	font-size: 24px;
+}
+
+div#header 
+{
+	background-color: #B22D29;
+	width: 100%;
+	padding-top: 15px;
+}
+div.square
+{
+	background-color: #B22D29;
+	width: 25px;
+	height: 25px;
+	display:block;
+	position: relative;
+	bottom: -10px;
+	margin: auto;
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transform: roate(45deg);
+}
+input, textarea
+{
+	display: block;
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	margin: 2px 0px 10px 0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	border: 1px solid #00B23E;
+}
+
+input[type=text]:focus, textarea:focus
+{
+	box-shadow: 0 0 5px #6dffa0;
+	border: 1px solid #00B23E;
+}
+
+input[type="submit"]
+{
+	background-color: #00B23E;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	font-size: 16px;
+	color: #fff;
+	border: medium none;
+	letter-spacing: 2px;
+	transition: background-color 0.5s ease-in-out;
+	-webkit-transition: background-color 0.5s ease-in-out;
+	-moz-transition: background-color 0.5s ease-in-out;
+	-ms-transition: background-color 0.5s ease-in-out;
+	-o-transition: background-color 0.5s ease-in-out;
+}
+
+input[type="submit"]:hover
+{
+	cursor: pointer;
+	background-color: #6dffa0;
+}
+
+@media only screen and (min-width: 800px)
+{
+	body main section h1
+	{
+		max-width: 800px;
+		display: block;
+		margin: auto;
+	}
+	body section #main_body
+	{
+		max-width: 800px;
+		display: block;
+		margin: auto;
+	}
+}
